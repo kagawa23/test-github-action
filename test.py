@@ -10,7 +10,7 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
-
+console.log('hello world')
 # Example usage
 if __name__ == "__main__":
     sample_list = [64, 34, 25, 12, 22, 11, 90]
