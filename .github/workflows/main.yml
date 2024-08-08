@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+      
+      - name: Setup Debug Session
+        uses: ./.github/actions/debugger-action
 
       - name: AI Code Reviewer
         uses: ./.github/actions/ai-codereviewer
